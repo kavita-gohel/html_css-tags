@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>
+                HTML CSS Layout - 1
+        </title>
+        <style>
+        .header {   
+        height: auto;
+        background-color: rgb(46, 44, 44);
+        }
+        .a {
+        margin: 10px;
+        color: aaa;
+       }
+       .leftdiv {
+        float: left;
+        width: 35%;
+        height: 200px; 
+        margin-top: 30px;
+        background-color: aaa;
+        margin-left: 5%;
+        color: rgb(90, 88, 88);
+        
+        }
+        .rightdiv 
+         { 
+         
+         float: right; 
+         width: 55% ;   
+         height: 200px; 
+         margin-top: 30px;
+         margin-right: 5%;
+          }
+
+         .column {
+            float: left;
+            width: 32%;
+            margin-top: 30px;
+            word-wrap: normal;
+            height: 250px; 
+            color: rgb(90, 88, 88);
+            }
+            
+         </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <table style="color: white; width: 100%;">
+                <tr>
+                    <td>
+                        <h1 style="margin-left: 50px;margin-top: 10px;"><b>amazon.in</b> </h1>
+                    </td>
+                     <td rowspan="2" style="width: 60%;" >
+                        <a href="#" class="a"  style="margin-left: 150px;">Login</a>
+                        <a href="#" class="a">Home</a>
+                        <a href="#" class="a">Category</a>
+                        <a href="#" class="a">Product</a>
+                        <a href="#" class="a">Services</a>
+                        <a href="#" class="a">Feedback</a>
+                        <a href="#" class="a">Logout</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4 style="margin-left: 50px; margin-top: -25px;">Up to 60% off</h4>
+                    </td>    
+                </tr>   
+                
+            </table>    
+        </div>
+      
+        <div class="leftdiv">
+            <h3><b style="margin-left: 30px;">  Know amazon ? </b></h3>
+            <h5 style="margin-left: 30px; margin-right: 10px; text-align: justify;  "> Amazon.com, Inc.(/ˈæməzɒn/ AM-ə-zon), is an American multinational technology company based in Seattle, Washington, which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. It is considered one of the Big Five companies in the U.S. information technology industry, along with Google, Apple, Microsoft, and Facebook. The company has been referred to as "one of the most influential economic and cultural forces in the world", as well as the world's most valuable brand.
+            </h5>    
+        </div>
+        <div class="rightdiv" >
+            <img src="2.jpg" alt="amazon" class="img" style=" 
+                width:100%; 
+                height:100%; 
+            "/>
+        
+        </div>
+
+        
+        <div style="margin-left: 5% ; margin-right: 5%";>
+            <div class="column" style="background-color:#aaa; margin-right: 23px; text-align: justify"><h3 style="padding-left: 10px;">amazon Mobile</h3>
+                <img src="11.jpg" alt="amazon" width="100px" height="100px" style="float: left;  margin-right: 10px; margin-bottom: 10px; margin-left: 10px;"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                The Amazon Appstore for Android is an app store for the Android operating system operated by Amazon.com. It is the package app store for Amazon's Fire OS operating system. It was opened on March 22, 2011 and was made available in nearly 200 countries. Developers are paid 70% of the list price of the app or in-app purchase.
+            </div>
+
+            <div class="column" style="background-color:#bbb; margin-right: 23px; text-align: justify "><h3 style="padding-left: 10px;">amazon Electronics</h3>
+                <img src="21.jpg" alt="amazon" width="100px" height="100px" style="float: left; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 Amazon has separate retail wabsteid for the follaein kintras; Unitit States, Canadae, Unitit Kinrick, Fraunce, Germany, Italy, Spain, Brazil, Japan, Cheenae an Indie, wi internaitional shippin tae certain ither kintras for some o its products. It is expectit tae launch its wabsteid in Poland an aw,Netherlands, an Swaden.
+            </div>
+            <div class="column" style="background-color:#ccc; text-align: justify;"><h3 style="padding-left: 10px;">amazon Marketing</h3>
+                <img src="31.png" alt="amazon" width="100px" height="100px" style="float: left; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Amazon Marketplace is an e-commerce platform owned and operated by Amazon that enables third-party sellers to sell new or used products on a fixed-price online marketplace alongside Amazon's regular offerings. Amazon makes money through its retail, subscriptions, and web services, among other channels
+             </div>
+        </div>
+  
+        <footer>
+            <img src="3.jpg" alt="amazon" width="100%" height="50px" style="margin-top: 10px; "/> 
+        </footer>
+    </body>
+</html>
